@@ -4,4 +4,5 @@
   :dependencies [[org.clojure/clojure "1.5.0"]
                  [org.lwjgl.lwjgl/lwjgl "2.8.5"]
                  [com.datomic/datomic-free "0.8.3826"]
-                 ])
+                 ]
+  :main sound-and-light.core)
