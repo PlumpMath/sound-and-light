@@ -2,7 +2,8 @@
   (:require [sound-and-light.systems.core :as sys]
             [sound-and-light.systems.graphics :as graphics]
             [sound-and-light.components.core :as components]
-            [sound-and-light.entities :as ent]))
+            [sound-and-light.entities :as ent])
+  (:gen-class))
 
 (defn get-systems
   "Gets an array of all the systems"
@@ -14,13 +15,14 @@
 (defn setup-starting-entities
   "Sets up the entities to start the game."
   []
-  {})
+  {:1 [(components/position 0 0 0)]})
 
 (defn main []
   "Game entry point"
   []
   (let [entities (atom (setup-starting-entities))
         systems (get-systems)]
+
     ;; Setup systems
     (doseq [s systems]
       (sys/setup s))
