@@ -1,7 +1,7 @@
 (ns sound-and-light.core
-  (:require [sound-and-light.systems.core :as sys]
+  (:require [sound-and-light.systems :as sys]
             [sound-and-light.systems.graphics :as graphics]
-            [sound-and-light.components.core :as components]
+            [sound-and-light.components :as components]
             [sound-and-light.entities :as ent])
   (:gen-class))
 

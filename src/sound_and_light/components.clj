@@ -1,5 +1,6 @@
+;;------------------------------------------------------------------------------
 ;; Components
-(ns sound-and-light.components.core)
+(ns sound-and-light.components)
 
 (defn position
   [x y z]

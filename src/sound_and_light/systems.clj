@@ -1,5 +1,5 @@
 ;; Systems
-(ns sound-and-light.systems.core)
+(ns sound-and-light.systems)
 
 (defprotocol PSystem
   "System that acts on entities"

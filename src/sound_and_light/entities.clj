@@ -2,8 +2,6 @@
 (ns sound-and-light.entities
   (:require [clojure.set :as s]))
 
-
-
 (defn get-types
   "gets all the types of the components"
   [components]
