@@ -1,10 +1,6 @@
 # sound-and-light
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A failed attempt at a lwjgl game in clojure. wontfix
 
 ## License
 
